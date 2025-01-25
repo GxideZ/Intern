@@ -9,19 +9,19 @@ const projectDetails = {
     title: "Portfolio Website",
     description:
       "A personal profile website displays personal information and is developed using the Nuxt framework for building the website. Tailwind CSS is used for styling and designing the website's layout.",
-    tools: ["React", "Tailwind CSS", "JavaScript"],
+    tools: ["Nuxt","Vue.js", "Tailwind CSS", "JavaScript"],
     image: "/10.png",
   },
   2: {
     title: "Dummy Man",
     description: "I was responsible for the software development in this project, which involves creating a device to measure soil and air humidity. The project utilizes PostgreSQL as the database and Node-RED to integrate hardware and software. The website was developed using the React framework to build a dashboard that displays the status of soil and air humidity.",
-    tools: ["Next.js", "Stripe", "Node.js"],
+    tools: ["React", "Bootstrap", "PostgreSQL","Node-RED"],
     image: "/13.png",
   },
   3: {
     title: "Dummy Man",
     description: "I was responsible for the software development in this project, which involves creating a device to measure soil and air humidity. The project utilizes PostgreSQL as the database and Node-RED to integrate hardware and software. The website was developed using the React framework to build a dashboard that displays the status of soil and air humidity.",
-    tools: ["PHP", "MySQL", "javaScript"],
+    tools: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
     image: "/15.png",
   },
   4: {

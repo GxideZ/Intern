@@ -10,7 +10,7 @@ const Project = () => {
       title: "Portfolio Website",
       description:
         "A personal portfolio website to showcase my skills and projects.",
-      tools: ["Nuxt", "Tailwind CSS", "JavaScript"],
+      tools: ["Nuxt","Vue.js","Tailwind CSS", "JavaScript"],
       image: "10.png",
     },
     {
@@ -18,14 +18,14 @@ const Project = () => {
       title: "Dummy Man",
       description:
         "Instument for measuring Soil and Air moisture.",
-      tools: ["react", "Bootstrap", "PostgreSQL","Node-RED"],
+      tools: ["React", "Bootstrap", "PostgreSQL","Node-RED"],
       image: "12.png",
     },
     {
       id: 3,
       title: "Apartment Management System",
       description: "Apartment management system that collects various customer data ",
-      tools: ["PHP", "MySQL", "JavaScript"],
+      tools: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
       image: "15.png",
     },
     {
@@ -33,7 +33,7 @@ const Project = () => {
       title: "Tonmai ศูนย์รวมความรู้ต้นไม้",
       description:
         "Website showing various plant species.",
-      tools: ["html", "css","MySQL"],
+      tools: ["HTML", "CSS","MySQL"],
       image: "16.png",
     },
 
