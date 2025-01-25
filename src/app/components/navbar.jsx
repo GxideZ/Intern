@@ -17,7 +17,11 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* โลโก้ */}
         <div className="flex items-center space-x-2">
-          <img src="logo.jpg" alt="Logo" className="h-8 w-8 border rounded-full object-cover" />
+          <img
+            src="logo.jpg"
+            alt="Logo"
+            className="h-8 w-8 border rounded-full object-cover"
+          />
           <div className="text-white text-lg font-bold">THANAPAT</div>
         </div>
 
@@ -70,7 +74,7 @@ const Navbar = () => {
                 >
                   About Me
                 </a>
-                
+
                 <a
                   href="#project"
                   className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition duration-300"
@@ -82,6 +86,12 @@ const Navbar = () => {
                   className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition duration-300"
                 >
                   Internship
+                </a>
+                <a
+                  href="#picture"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition duration-300"
+                >
+                  Picture
                 </a>
               </div>
             )}
@@ -136,7 +146,12 @@ const Navbar = () => {
               >
                 Internship
               </a>
-              
+              <a
+                href="#picture"
+                className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition duration-300"
+              >
+                Picture
+              </a>
             </div>
           )}
         </div>

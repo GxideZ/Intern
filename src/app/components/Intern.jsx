@@ -2,7 +2,8 @@ import React from "react";
 
 function Intern() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-black py-8 px-6 flex items-center justify-center relative">
+    <div className="min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-black py-8 px-6 flex items-center justify-center relative border-t border-gray-700">
+      
       <div className="absolute inset-0 bg-gradient-to-t from-transparent to-gray-900 opacity-40 pointer-events-none"></div>
       <div className="absolute top-10 left-10 w-40 h-40 bg-blue-400 opacity-20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-10 right-10 w-60 h-60 bg-blue-500 opacity-20 rounded-full blur-3xl"></div>

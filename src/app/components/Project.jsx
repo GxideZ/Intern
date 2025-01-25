@@ -73,12 +73,12 @@ const Project = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-8 px-6 flex flex-col items-center justify-center">
+    <div className="min-h-screen border-t border-gray-700 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-8 px-6 flex flex-col items-center justify-center">
       <div className="absolute inset-0 bg-gradient-to-t from-transparent to-gray-900 opacity-40 pointer-events-none"></div>
       <div className="absolute top-10 left-10 w-40 h-40 bg-blue-400 opacity-20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-10 right-10 w-60 h-60 bg-pink-500 opacity-20 rounded-full blur-3xl"></div>
 
-      <h1 className="text-4xl font-bold mb-6 text-center text-gray-100">
+      <h1 className="text-4xl font-bold mb-6 text-center text-white">
         My Projects
       </h1>
 

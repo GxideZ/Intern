@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      transform: {
+        'preserve-3d': 'transform-style: preserve-3d',
+        'backface-hidden': 'backface-visibility: hidden',
+      },
     },
   },
   plugins: [],
