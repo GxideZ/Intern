@@ -11,7 +11,7 @@ const Picture = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex flex-col items-center justify-center px-6 relative overflow-hidden border-t border-gray-700">
+    <div className="min-h-screen py-8 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex flex-col items-center justify-center px-6 relative overflow-hidden border-t border-gray-700">
       {/* Background Effects */}
       <div className="absolute top-0 left-0 w-80 h-80 bg-gradient-to-r from-purple-500 to-indigo-500 opacity-30 blur-3xl transform -translate-x-1/2 -translate-y-1/2 rounded-full animate-pulse"></div>
       <div className="absolute bottom-10 right-0 w-96 h-96 bg-gradient-to-tl from-indigo-500 to-teal-800 opacity-40 blur-2xl transform translate-x-1/2 translate-y-1/8 rounded-full animate-spin-slow"></div>
