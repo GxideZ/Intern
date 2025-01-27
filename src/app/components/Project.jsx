@@ -36,6 +36,14 @@ const Project = () => {
       tools: ["HTML", "CSS","MySQL"],
       image: "16.png",
     },
+    {
+      id: 5,
+      title: "Clone Website",
+      description:
+        "Copy the web page template.",
+      tools: ["Angular", "HTML","Tailwind CSS"],
+      image: "clone.png",
+    },
 
   ];
 

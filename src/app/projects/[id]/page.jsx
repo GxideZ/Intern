@@ -30,6 +30,12 @@ const projectDetails = {
     tools: ["HTML", "CSS", "MySQL"],
     image: "/16.png",
   },
+  5: {
+    title: "Clone Website Gravity",
+    description: "A small project to clone a website using the Angular framework and styling it with Tailwind CSS, with a bit of JavaScript for additional functionality. This project is a practice exercise to develop web development skills for a Front-End Developer position in 2025.",
+    tools: ["Angular Framework", "HTML", "Tailwind CSS"],
+    image: "/clone.png",
+  },
 };
 
 const ProjectDetailsPage = ({ params }) => {
